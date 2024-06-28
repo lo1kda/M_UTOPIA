@@ -1,0 +1,32 @@
+[
+  {
+    "pt_pin": "jd_5d9ac05c77c9f",
+    "remarks": "",
+    "enable": true,
+    "address": {
+      "receiver": "谢先生",
+      "phone": "13973027090",
+      "province": "上海市",
+      "city": "上海市",
+      "county": "金山区",
+      "address": "龙山路518弄24号",
+      "postalCode": "201500",
+      "areaCode": "310116"
+    }
+  },
+  {
+    "pt_pin": "jd_6cea603791a9e",
+    "remarks": "",
+    "enable": true,
+    "address": {
+      "receiver": "谢先生",
+      "phone": "13761471513",
+      "province": "上海市",
+      "city": "上海市",
+      "county": "金山区",
+      "address": "龙山路518弄24号",
+      "postalCode": "201500",
+      "areaCode": "310116"
+    }
+  }
+]
