@@ -13,7 +13,7 @@ Leaf删库了，我的青春结束了
 很久没有查看邮箱，我发现里面有几个投稿，感谢投稿！    
 
 ### 教程   
-不是开箱即用，有实力的自己研究  
+不是开箱即用，有实力的自己研究，我也没研究明白  
 还有几个投稿等我再研究，几天后会发出来  
 
 ## ENGLISH  
@@ -22,7 +22,7 @@ Leaf delete his repo, my youth life end
 It's a long time since I last check E-mail box, several projects founded, thanks submitting!  
 
 ### Tutorial  
-Not out-of-the-box, try fix yourself  
+Not out-of-the-box, try fix yourself. I don't know how to either  
 More projects soon in days after I check them more  
 
 ## 【UTOPIA】免责声明
