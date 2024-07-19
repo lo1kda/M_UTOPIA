@@ -13,8 +13,12 @@ Leaf删库了，我的青春结束了
 很久没有查看邮箱，我发现里面有几个投稿，感谢投稿！    
 
 ### 教程   
-不是开箱即用，有实力的自己研究，我也没研究明白  
-还有几个投稿等我再研究，几天后会发出来  
+简单说下破解思路：找有授权的朋友，改一下utopia.js中的auth()，令其将服务器响应输出并存储，然后投喂各种类型的线报（自然地，不要太明显）  
+麦基服务器风控做的很敏感，所以不建议通其他方法去抓响应  
+另外，库里这个版本的utopia.js可能已经被麦基发现并且做了特征，如果要抓响应请用麦基给的原版文件修改  
+抓大量响应后再去重、手动做分类判断（比如无线/100/100v2/京耕/京云/hdb...）然后自建鉴权服务器即可完成破解  
+上面auth_api文件夹下的json文件就是我抓到的响应，大概只能跑100和京耕系列活动（没有仔细测试过）  
+我已经被麦基风控了，抓不到更多响应了，还请完成破解的朋友带带我，谢谢！  
 
 ## ENGLISH  
 ### Preface  
@@ -22,8 +26,12 @@ Leaf delete his repo, my youth life end
 It's a long time since I last check E-mail box, several projects founded, thanks submitting!  
 
 ### Tutorial  
-Not out-of-the-box, try fix yourself. I don't know how to either  
-More projects soon in days after I check them more  
+Breifly cracking solution: Find a friend verified by @iMeagic. Modify the function auth() in utopia.js making it output and save the response from iMeagic's auth server, then feed the scripts with various shop activity urls (making it naturally, not too aggressive)  
+@iMeagic makes his auth server strong risk control, so it's not advised to grab server response in other ways  
+Besides, utopia.js in this repo may already be found by @iMeagic and identified by his auth server, so please modify on the original file provided by @iMeagic  
+Grabing lots of responses, try to de-duplicate and classify those responses by activity types (like wuxian/100/v2_100/jinggeng/jingyun/hdb... series), then self-host your own auth server  
+The json file of the `auth_api` folder in this repo is what I grabbed from the server, seems only able to run 100&jinggeng series activities (not tested carefully)  
+However I'm now taken down by @iMeagic and could not get more responses, so please help me if your have finished the cracking, thank you!  
 
 ## 【UTOPIA】免责声明
 
